@@ -25,7 +25,7 @@ export default function DashboardTab() {
       setData(res.data);
     } catch (err) {
       console.error(err);
-      setError('Failed to load dashboard metrics. Ensure Django server is running at http://localhost:8000.');
+      setError('Failed to load dashboard metrics. Ensure the backend API is accessible.');
     } finally {
       setLoading(false);
     }
