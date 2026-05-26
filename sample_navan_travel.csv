@@ -1,0 +1,7 @@
+Booking ID,Trip ID,Employee ID,Traveller Name,Travel Date,Booking Date,Category,Origin,Destination,Cabin Class,Carrier Code,Hotel Name,Hotel City,Hotel Country,Nights,Ground Type,Distance km,Amount,Currency,Policy Status,Department,Cost Centre
+NAV-2024-88421,TRP-001,EMP-042,Sarah Chen,15/03/2024,28/02/2024,flight,LHR,JFK,economy,BA,,,,,,,,842.50,GBP,approved,Engineering,4210
+NAV-2024-88422,TRP-001,EMP-042,Sarah Chen,18/03/2024,28/02/2024,hotel,,,,,Marriott Times Square,New York,US,3,,,320.00,USD,approved,Engineering,4210
+NAV-2024-88423,TRP-001,EMP-042,Sarah Chen,18/03/2024,18/03/2024,ground_transport,,,,,,,,,taxi,12.4,28.50,USD,approved,Engineering,4210
+NAV-2024-88424,TRP-001,EMP-042,Sarah Chen,21/03/2024,28/02/2024,flight,JFK,LHR,economy,BA,,,,,,,,798.00,GBP,approved,Engineering,4210
+NAV-2024-88501,TRP-002,EMP-019,James O'Brien,22/03/2024,15/03/2024,flight,MAN,AMS,economy,KL,,,,,,,,189.75,GBP,out_of_policy,Sales,4310
+NAV-2024-88502,TRP-002,EMP-019,James O'Brien,23/03/2024,15/03/2024,ground_transport,,,,,,,,,taxi,,45.00,EUR,approved,Sales,4310
