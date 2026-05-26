@@ -1,0 +1,61 @@
+version: '3.8'
+
+services:
+  # 1. PostgreSQL Database Service
+  db:
+    image: postgres:15-alpine
+    container_name: breathe_esg_db
+    restart: always
+    environment:
+      POSTGRES_DB: breathe_esg_prod
+      POSTGRES_USER: esg_analyst
+      POSTGRES_PASSWORD: secureesgpassword123
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U esg_analyst -d breathe_esg_prod"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  # 2. Django REST Framework Backend Service
+  backend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: breathe_esg_backend
+    restart: always
+    environment:
+      - DEBUG=False
+      - SECRET_KEY=django-insecure-prod-key-for-breathe-esg-analyst-portal
+      - ALLOWED_HOSTS=*
+      - CORS_ALLOW_ALL_ORIGINS=True
+      - DB_NAME=breathe_esg_prod
+      - DB_USER=esg_analyst
+      - DB_PASSWORD=secureesgpassword123
+      - DB_HOST=db
+      - DB_PORT=5432
+    ports:
+      - "8000:8000"
+    depends_on:
+      db:
+        condition: service_healthy
+
+  # 3. React Frontend Nginx Service
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+      args:
+        - VITE_API_URL=http://localhost:8000/api
+    container_name: breathe_esg_frontend
+    restart: always
+    ports:
+      - "80:80"
+    depends_on:
+      - backend
+
+volumes:
+  postgres_data:
