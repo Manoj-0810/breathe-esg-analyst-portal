@@ -748,7 +748,7 @@ breathe-esg-analyst-portal/
 
 ---
 
-## Submission Checklist
+##  Checklist
 
 | Requirement | Status | Details |
 |---|:---:|---|
