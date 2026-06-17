@@ -21,9 +21,6 @@
 </p>
 
 <p align="center">
-  <a href="https://breathe-esg-api-8dcv.onrender.com">
-    <img src="https://img.shields.io/badge/Live_API-Render_(Production)-10b981?style=for-the-badge" alt="Live API"/>
-  </a>
   <a href="https://github.com/Manoj-0810/breathe-esg-analyst-portal">
     <img src="https://img.shields.io/badge/Repository-GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
   </a>
