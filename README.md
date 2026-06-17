@@ -1,25 +1,28 @@
-<div align="center">
-<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=700&size=42&duration=1&pause=10000&color=10B981&center=true&vCenter=true&width=900&height=80&lines=🍃+Breathe+ESG" alt="Breathe ESG" />
-### **Enterprise Carbon Accounting & Analyst Portal**
-*Production-Grade · Audit-Ready · DEFRA 2024 Certified*
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=700&size=42&duration=1&pause=10000&color=10B981&center=true&vCenter=true&width=900&height=80&lines=%F0%9F%8D%83+Breathe+ESG" alt="Breathe ESG" />
+</p>
+<h3 align="center">Enterprise Carbon Accounting & Analyst Portal</h3>
+<p align="center"><em>Production-Grade · Audit-Ready · DEFRA 2024 Certified</em></p>
 <br/>
-[![Build Status](https://img.shields.io/badge/build-passing-10b981?style=for-the-badge&logo=github-actions&logoColor=white)](https://github.com/Manoj-0810/breathe-esg-analyst-portal)
-[![Python](https://img.shields.io/badge/Python-3.10%20%7C%203.11-3776ab?style=for-the-badge&logo=python&logoColor=white)](#)
-[![Django](https://img.shields.io/badge/Django-4.2-092e20?style=for-the-badge&logo=django&logoColor=white)](#)
-[![React](https://img.shields.io/badge/React-18.0-61dafb?style=for-the-badge&logo=react&logoColor=black)](#)
-[![Tailwind CSS](https://img.shields.io/badge/Tailwind-3.0-06b6d4?style=for-the-badge&logo=tailwind-css&logoColor=white)](#)
-[![Docker](https://img.shields.io/badge/Docker-Compose-2496ed?style=for-the-badge&logo=docker&logoColor=white)](#)
-[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-15-336791?style=for-the-badge&logo=postgresql&logoColor=white)](#)
-[![License](https://img.shields.io/badge/License-MIT-8b5cf6?style=for-the-badge)](#)
-<br/>
-[![Live API](https://img.shields.io/badge/🚀%20Live%20API-Render%20(Production)-10b981?style=for-the-badge)](https://breathe-esg-api-8dcv.onrender.com)
-[![Live Frontend](https://img.shields.io/badge/🌐%20Live%20Frontend-Vercel%20(Production)-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://breathe-esg-api-8dcv.onrender.com)
-[![Repository](https://img.shields.io/badge/📂%20Repository-GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Manoj-0810/breathe-esg-analyst-portal)
+<p align="center">
+  <a href="https://github.com/Manoj-0810/breathe-esg-analyst-portal"><img src="https://img.shields.io/badge/build-passing-10b981?style=for-the-badge&logo=github-actions&logoColor=white" alt="Build Status"/></a>
+  <img src="https://img.shields.io/badge/Python-3.10%20%7C%203.11-3776ab?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
+  <img src="https://img.shields.io/badge/Django-4.2-092e20?style=for-the-badge&logo=django&logoColor=white" alt="Django"/>
+  <img src="https://img.shields.io/badge/React-18.0-61dafb?style=for-the-badge&logo=react&logoColor=black" alt="React"/>
+  <img src="https://img.shields.io/badge/Tailwind-3.0-06b6d4?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS"/>
+  <img src="https://img.shields.io/badge/Docker-Compose-2496ed?style=for-the-badge&logo=docker&logoColor=white" alt="Docker"/>
+  <img src="https://img.shields.io/badge/PostgreSQL-15-336791?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL"/>
+  <img src="https://img.shields.io/badge/License-MIT-8b5cf6?style=for-the-badge" alt="License"/>
+</p>
+<p align="center">
+  <a href="https://breathe-esg-api-8dcv.onrender.com"><img src="https://img.shields.io/badge/%F0%9F%9A%80%20Live%20API-Render%20(Production)-10b981?style=for-the-badge" alt="Live API"/></a>
+  <a href="https://breathe-esg-api-8dcv.onrender.com"><img src="https://img.shields.io/badge/%F0%9F%8C%90%20Live%20Frontend-Vercel%20(Production)-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Frontend"/></a>
+  <a href="https://github.com/Manoj-0810/breathe-esg-analyst-portal"><img src="https://img.shields.io/badge/%F0%9F%93%82%20Repository-GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="Repository"/></a>
+</p>
 <br/>
 > **Breathe ESG** is a complete, production-grade carbon accounting platform that automatically ingests raw enterprise data from SAP MM, Stark utility meters, and Navan travel — normalising every activity into audited $\text{kgCO}_2\text{e}$ figures using the official **DEFRA 2024 Greenhouse Gas Conversion Factors**. Built with an immutable audit ledger, forensic-grade data provenance, and a premium glassmorphic analyst dashboard.
 <br/>
 ---
-</div>
 ## 📑 Table of Contents
 |
  Section 
@@ -272,8 +275,7 @@ Raw Stark CSV (Wide Format):
 ┌──────────┬────────┬────────┬──────────┬────────┬──────────┬─────┐
 │  MPAN    │  Date  │  HH01  │ HH01_Flg │  HH02  │ HH02_Flg │ ... │
 ├──────────┼────────┼────────┼──────────┼────────┼──────────┼─────┤
-│ 10001234 │2024-03-│ 12.500 │    A     │ 13.250 │    E     │ ... │
-│          │  25    │        │          │        │          │     │
+│ 10001234 │2024-03 │ 12.500 │    A     │ 13.250 │    E     │ ... │
 └──────────┴────────┴────────┴──────────┴────────┴──────────┴─────┘
                               ▼ Melt / Pivot
 Normalised EmissionRow (Long Format):
@@ -333,9 +335,9 @@ Substituted
 #### Clock-Change Day Handling
 The parser gracefully handles British Summer Time (BST) transitions — a detail most implementations get wrong:
 ```
-Standard Day      → 48 HH periods (24 hours)        ✅ Normal
-March (Clocks +1) → 46 HH periods (23 hours, 1 hr lost)  ✅ Handled
-October (Clocks -1)→ 50 HH periods (25 hours, 1 hr gain) ✅ Handled
+Standard Day       → 48 HH periods (24 hours)         ✅ Normal
+March (Clocks +1)  → 46 HH periods (23 hours, 1 lost) ✅ Handled
+October (Clocks -1)→ 50 HH periods (25 hours, 1 gain) ✅ Handled
 ```
 > [!NOTE]
 > An off-by-one error during clock-change months would silently under-report (March) or over-report (October) electricity consumption. The Stark parser bounds-checks the period count before iterating, preventing `IndexError` exceptions and ensuring no kilowatt-hours are lost in translation.
@@ -360,7 +362,7 @@ $$d = 2R \arcsin\!\left(\sqrt{\sin^2\!\left(\frac{\Delta\phi}{2}\right) + \cos\p
 > [!IMPORTANT]
 > **This is the most consequential ESG accuracy decision in the parser.**
 >
-> Many ESG platforms classify a flight as "domestic" only if its computed distance falls below a threshold (e.g., $<463\text{ km}$). This approach **fails for UK domestic routes**:
+> Many ESG platforms classify a flight as "domestic" only if its computed distance falls below a threshold (e.g., < 463 km). This approach **fails for UK domestic routes**:
 >
 > | Route | Distance | Naive Classification | Correct Classification |
 > |---|---|---|---|
@@ -370,7 +372,7 @@ $$d = 2R \arcsin\!\left(\sqrt{\sin^2\!\left(\frac{\Delta\phi}{2}\right) + \cos\p
 >
 > The DEFRA domestic factor (**0.25527 kgCO₂e/km**) is **1.66× higher** than the short-haul economy factor (**0.15353 kgCO₂e/km**) because domestic flights consume a disproportionately large share of fuel during takeoff and climb phases relative to cruise.
 >
-> **Breathe ESG solves this** by maintaining a static set of UK IATA codes (`LHR`, `LGW`, `MAN`, `EDI`, `GLA`, `BHD`, `BRS`, `NCL`, `LBA`, `EMA`, `ABZ`, `INV`, ...). A flight is classified as `domestic` **if and only if both origin and destination are in this set**, irrespective of computed distance.
+> **Breathe ESG solves this** by maintaining a static set of UK IATA codes. A flight is classified as `domestic` **if and only if both origin and destination are in this set**, irrespective of computed distance.
 #### Complete Flight Classification Logic
 ```python
 def classify_flight(origin_iata: str, dest_iata: str, distance_km: float) -> str:
@@ -524,25 +526,25 @@ This prevents **silent under-reporting**: every kilogram of potential emissions 
                      │  IngestionJob   │
                      │─────────────────│
                      │ id (UUID, PK)   │
-                     │ client_id (FK)  │◄──────────────────────┐
-                     │ source_type     │                       │
-                     │ original_filename│                      │
-                     │ status          │                       │
-                     │ row_count_total │                       │
-                     │ row_count_success│                      │
-                     │ row_count_error │                       │
-                     │ uploaded_by(FK) │                       │
-                     │ uploaded_at     │                       │
-                     │ completed_at    │                       │
-                     └────────┬────────┘                       │
-                              │ 1                              │
-                              │ has many                       │
-                              │ N                              │
-        ┌─────────────────────▼──────────────────────────┐    │
-        │                  EmissionRow                    │    │
-        │────────────────────────────────────────────────│    │
-        │ id (UUID, PK)                                  │    │
-        │ ingestion_job_id (FK) ─────────────────────────┼────┘
+                     │ client_id (FK)  │
+                     │ source_type     │
+                     │ original_filename│
+                     │ status          │
+                     │ row_count_total │
+                     │ row_count_success│
+                     │ row_count_error │
+                     │ uploaded_by(FK) │
+                     │ uploaded_at     │
+                     │ completed_at    │
+                     └────────┬────────┘
+                              │ 1
+                              │ has many
+                              │ N
+        ┌─────────────────────▼──────────────────────────┐
+        │                  EmissionRow                    │
+        │────────────────────────────────────────────────│
+        │ id (UUID, PK)                                  │
+        │ ingestion_job_id (FK)                          │
         │ emission_factor_used_id (FK) ──────────────────┼──┐
         │ source_type (enum)                             │  │
         │ activity_date                                  │  │
@@ -572,14 +574,14 @@ This prevents **silent under-reporting**: every kilogram of potential emissions 
                                                   │ valid_to (date)    │
                                                   └────────────────────┘
         ┌───────────────────────────────────────────────────────────────┐
-        │                        AuditLog (Append-Only)                 │
+        │                   AuditLog (Append-Only)                      │
         │───────────────────────────────────────────────────────────────│
         │ id (UUID, PK)                                                 │
         │ emission_row_id (FK → EmissionRow)                           │
         │ actor_id (FK → User)                                         │
         │ action (enum: approve | flag | edit | ingest)                │
         │ before_value (JSONField — full row snapshot)                  │
-        │ after_value (JSONField — full row snapshot)                   │
+        │ after_value  (JSONField — full row snapshot)                  │
         │ note (text)                                                   │
         │ created_at (auto_now_add — immutable timestamp)              │
         └───────────────────────────────────────────────────────────────┘
@@ -636,12 +638,12 @@ This prevents **silent under-reporting**: every kilogram of potential emissions 
 #### `EmissionFactor` — Versioned, No-Deploy Updates
 ```python
 class EmissionFactor(models.Model):
-    name             = models.CharField(max_length=255)
-    factor           = models.DecimalField(max_digits=18, decimal_places=6)
-    valid_from       = models.DateField()
-    valid_to         = models.DateField(null=True, blank=True)  # None = current
+    name       = models.CharField(max_length=255)
+    factor     = models.DecimalField(max_digits=18, decimal_places=6)
+    valid_from = models.DateField()
+    valid_to   = models.DateField(null=True, blank=True)  # None = current
 ```
-When DEFRA releases mid-year corrections (e.g., October 2024 grid intensity adjustment), an admin uploads the new factor via Django Admin. No code deployment required. Historical rows retain an explicit FK (`emission_factor_used_id`) to the **exact factor version active at ingestion time** — preventing retrospective recalculation errors.
+When DEFRA releases mid-year corrections, an admin uploads the new factor via Django Admin. No code deployment required. Historical rows retain an explicit FK (`emission_factor_used_id`) to the **exact factor version active at ingestion time** — preventing retrospective recalculation errors.
 #### `AuditLog` — Append-Only, DB-Enforced Immutability
 ```python
 class AuditLog(models.Model):
@@ -659,7 +661,7 @@ class AuditLog(models.Model):
 ```
 > [!CAUTION]
 > The immutability constraint is enforced **at the ORM layer**, not just through permission configuration. Even a Django superuser calling `audit_log.save()` on an existing record will raise a `ValidationError`. This ensures the audit trail cannot be silently tampered with through misconfigured admin panels, data migrations, or compromised user accounts.
-The `before_value` / `after_value` JSON snapshots provide forensic-grade transparency. Regulators can reconstruct the **complete state of every emission row at every point in time** by replaying the audit log — a capability required for financial-grade carbon disclosure under the UK's TCFD-aligned reporting frameworks.
+The `before_value` / `after_value` JSON snapshots provide forensic-grade transparency. Regulators can reconstruct the **complete state of every emission row at every point in time** by replaying the audit log — a capability required for financial-grade carbon disclosure under TCFD-aligned reporting frameworks.
 ---
 ## ⚖️ Architectural Tradeoffs
 Each decision below documents the production tradeoff chosen for v1 and a concrete, actionable resolution path for enterprise scale:
@@ -667,42 +669,41 @@ Each decision below documents the production tradeoff chosen for v1 and a concre
 <summary><strong>1. SAP MM Physical Quantities vs. FI/CO Financial Postings</strong></summary>
 **Chosen**: Ingest physical receipts from SAP MM (liters, kWh) rather than financial cost bookings from SAP FI/CO (£12,500 for diesel).
 **Why**: Carbon emissions are determined by physical combustion quantities, not purchase price. A financial figure varies with energy market pricing, hedging contracts, and invoicing schedules — it cannot be reliably converted to kgCO₂e without introducing systematic estimation error.
-**Scale Resolution**: A parallel FI/CO parser (KSB1 transaction) should automatically reconcile MM physical quantities with corresponding financial invoices. Valuation discrepancies (e.g., physical receipt exists with no matching financial posting) would be surfaced as data quality flags for finance team investigation.
+**Scale Resolution**: A parallel FI/CO parser (KSB1 transaction) should automatically reconcile MM physical quantities with corresponding financial invoices. Valuation discrepancies would be surfaced as data quality flags for finance team investigation.
 </details>
 <details>
 <summary><strong>2. Half-Hourly Aggregation Granularity</strong></summary>
 **Chosen**: Aggregate 48 HH periods into daily totals before storing in `EmissionRow`.
-**Why**: Storing raw HH data at 50 meters per building generates **876,000 rows/year** — a 98% storage reduction by aggregating to daily. For carbon disclosure purposes, daily granularity is sufficient for DEFRA-compliant Scope 2 calculations.
-**Scale Resolution**: Integrate TimescaleDB as a companion time-series store for raw 30-minute intervals. This enables sub-daily load profiling, demand flexibility analytics, and automated anomaly detection (e.g., HVAC running at 3 AM on weekends), while PostgreSQL continues serving official daily aggregates for GHG disclosure.
+**Why**: Storing raw HH data at 50 meters per building generates **876,000 rows/year** — a 98% storage reduction by aggregating to daily. For carbon disclosure, daily granularity is sufficient for DEFRA-compliant Scope 2 calculations.
+**Scale Resolution**: Integrate TimescaleDB as a companion time-series store for raw 30-minute intervals. This enables sub-daily load profiling and demand flexibility analytics, while PostgreSQL continues serving official daily aggregates for GHG disclosure.
 </details>
 <details>
 <summary><strong>3. Navan Modern CSV vs. SAP Concur Legacy SAE</strong></summary>
 **Chosen**: Implement the Navan accounting CSV export (clean, column-mapped, UTF-8).
-**Why**: SAP Concur Standard Accounting Extract (SAE) files use a complex fixed-width format where column positions vary by customer configuration. Building a universal Concur SAE parser without client-specific column mappings is not feasible in v1.
-**Scale Resolution**: Add a dynamic field-mapper service allowing clients to upload a column mapping configuration for their Concur SAE export. The mapping service translates client-specific column offsets to our internal schema — avoiding the need to build and maintain individual parsers per customer.
+**Why**: SAP Concur Standard Accounting Extract (SAE) files use a complex fixed-width format where column positions vary by customer configuration. A universal parser is not feasible in v1.
+**Scale Resolution**: Add a dynamic field-mapper service allowing clients to upload a column mapping configuration for their Concur SAE export, translating client-specific column offsets to our internal schema.
 </details>
 <details>
 <summary><strong>4. Multi-Currency Handling</strong></summary>
 **Chosen**: Store multi-currency amounts (GBP, USD, EUR) as metadata fields without conversion.
-**Why**: Currency conversion requires daily FX rates, introducing a dependency on an external service and adding a second source of audit uncertainty to the emission calculation.
-**Scale Resolution**: Integrate a daily FX rate feed (Open Exchange Rates API or ECB reference rates), add a `normalized_amount_gbp` computed field to `EmissionRow`, and surface a consolidated travel spend dashboard alongside carbon metrics for CFO-level reporting.
+**Why**: Currency conversion requires daily FX rates, adding an external service dependency and a second source of audit uncertainty to the emission calculation.
+**Scale Resolution**: Integrate a daily FX rate feed (ECB reference rates), add a `normalized_amount_gbp` computed field to `EmissionRow`, and surface a consolidated travel spend dashboard for CFO-level reporting.
 </details>
 <details>
 <summary><strong>5. Scope 3 Category Coverage</strong></summary>
 **Chosen**: Implement Category 6 (Business Travel) as the Scope 3 demonstration pathway.
-**Why**: Business travel provides the richest parsing challenge (multi-leg itineraries, Haversine computation, domestic classification) within a well-defined DEFRA methodology. Other Scope 3 categories require distinct data sources not available for the v1 demo dataset.
-**Scale Resolution**: Scope 3 Category 1 (Purchased Goods & Services) typically constitutes **60–80% of a corporate footprint**. Implementation requires integrating a spend-based EEIO database (EXIOBASE or USEEIO), translating procurement spend categories (GL accounts from SAP FI) into carbon intensities via £/kgCO₂e conversion vectors.
+**Why**: Business travel provides the richest parsing challenge within a well-defined DEFRA methodology. Other categories require distinct data sources not available for the v1 demo dataset.
+**Scale Resolution**: Scope 3 Category 1 (Purchased Goods & Services) typically constitutes **60–80% of a corporate footprint**. Implementation requires integrating a spend-based EEIO database (EXIOBASE) to translate procurement spend categories into carbon intensities via £/kgCO₂e conversion vectors.
 </details>
 <details>
 <summary><strong>6. Manual File Upload vs. Scheduled API Sync</strong></summary>
 **Chosen**: File upload via the analyst portal for all three source types.
 **Why**: Direct API integrations require OAuth2 credentials, firewall exceptions, and contractual data-sharing agreements — not available in the v1 demo environment.
-**Scale Resolution**: Replace manual uploads with scheduled Celery tasks: (1) Navan Reporting API OAuth2 sync nightly, (2) Stark email attachment scraper parsing supplier invoices, (3) SAP Gateway OData connector pulling MB51 report data directly from the SAP system. Celery Beat schedules all three, with failure alerting via Slack webhooks.
+**Scale Resolution**: Replace manual uploads with scheduled Celery tasks: Navan Reporting API OAuth2 sync nightly, Stark email attachment scraper, and SAP Gateway OData connector for MB51 data. Celery Beat schedules all three with Slack failure alerting.
 </details>
 ---
 ## 🚀 Quickstart
 ### Option A: Docker Compose *(Recommended — One Command)*
-Verify Docker and Docker Compose are installed, then:
 ```bash
 # Clone the repository
 git clone https://github.com/Manoj-0810/breathe-esg-analyst-portal.git
@@ -772,24 +773,18 @@ python manage.py migrate
 python manage.py seed_sample_data
 # 5. Start development server
 python manage.py runserver
-# → Django API: http://localhost:8000
+# → Django API:   http://localhost:8000
 # → Django Admin: http://localhost:8000/admin
 ```
 #### Frontend — React + Vite
 ```bash
-# 1. Navigate to frontend directory
 cd frontend
-# 2. Install Node modules
 npm install
-# 3. Start Vite development server
 npm run dev
 # → React Dashboard: http://localhost:5173
 ```
 ---
 ## 🔌 API Reference
-### Authentication
-All endpoints use Django's session authentication. The seeded `admin` user has full access. For programmatic access, include the session cookie from a successful `/api/auth/login/` response.
----
 ### `POST /api/ingest/<source_type>/`
 Ingests a raw data file and returns a processed `IngestionJob`.
 **Path Parameters:**
@@ -851,7 +846,7 @@ Ingests a raw data file and returns a processed `IngestionJob`.
 |
  ❌ 
 |
- Client UUID — defaults to seeded baseline client 
+ Defaults to seeded baseline client 
 |
 **Response `201 Created`:**
 ```json
@@ -860,43 +855,20 @@ Ingests a raw data file and returns a processed `IngestionJob`.
   "client_id": "f81d4fae-7dec-11d0-a765-00a0c91e6bf6",
   "source_type": "travel_navan",
   "original_filename": "navan_q1_2024.csv",
-  "uploaded_by": {
-    "id": 1,
-    "username": "system_ingest",
-    "email": "ingest@breatheesg.com"
-  },
+  "uploaded_by": { "id": 1, "username": "system_ingest" },
   "uploaded_at": "2024-03-15T09:32:00Z",
   "status": "complete",
   "row_count_total": 6,
   "row_count_success": 5,
   "row_count_error": 1,
-  "error_detail": [
-    {
-      "row": 5,
-      "error": "Missing IATA code or distance details"
-    }
-  ],
+  "error_detail": [{ "row": 5, "error": "Missing IATA code or distance details" }],
   "completed_at": "2024-03-15T09:32:05Z"
 }
 ```
 > **Idempotency**: Re-uploading a file with the same `original_filename` while a job with `status: complete` exists returns the existing `IngestionJob` with `200 OK`, preventing duplicate processing.
 ---
 ### `GET /api/runs/`
-Returns a chronologically sorted history of all ingestion jobs.
-```json
-[
-  {
-    "id": "e4a3b8cb-...",
-    "source_type": "utility_hh",
-    "original_filename": "stark_march_2024.csv",
-    "status": "complete",
-    "row_count_total": 93,
-    "row_count_success": 93,
-    "row_count_error": 0,
-    "uploaded_at": "2024-03-15T08:00:00Z"
-  }
-]
-```
+Returns a chronologically sorted history of all ingestion jobs with status and row metrics.
 ---
 ### `GET /api/dashboard/`
 Returns real-time aggregated metrics across all ingested emission rows.
@@ -912,15 +884,15 @@ Returns real-time aggregated metrics across all ingested emission rows.
     "Scope 3": "20019.400000"
   },
   "emissions_by_source": {
-    "sap_mm":       "15420.250000",
-    "utility_hh":   "9850.508300",
+    "sap_mm": "15420.250000",
+    "utility_hh": "9850.508300",
     "travel_navan": "20019.400000"
   },
   "data_quality": {
-    "total_rows":             16,
-    "flagged_rows":            2,
-    "approved_rows":          10,
-    "pending_rows":            4,
+    "total_rows": 16,
+    "flagged_rows": 2,
+    "approved_rows": 10,
+    "pending_rows": 4,
     "completeness_score_pct": 62.5
   },
   "monthly_trend": [
@@ -933,21 +905,12 @@ Returns real-time aggregated metrics across all ingested emission rows.
 ---
 ### `POST /api/rows/<uuid:pk>/approve/`
 Approves a flagged emission row, clears all flags, locks its state (`is_approved=True`), and appends an immutable `approve` event to the `AuditLog`.
-**Request Body:**
 ```json
-{
-  "note": "Verified against physical supplier invoice #12948-B."
-}
+{ "note": "Verified against physical supplier invoice #12948-B." }
 ```
-**Behaviour:**
-- `is_approved` → `True`
-- `is_flagged` → `False`
-- `flag_reason` → `""`
-- `AuditLog` entry appended with `before_value` / `after_value` snapshots
 ---
 ### `POST /api/rows/<uuid:pk>/flag/`
 Flags an emission row for analyst review and appends a `flag` event to the `AuditLog`.
-**Request Body:**
 ```json
 {
   "flag_reason": "Out of travel policy — requires line manager sign-off.",
@@ -956,7 +919,7 @@ Flags an emission row for analyst review and appends a `flag` event to the `Audi
 ```
 ---
 ### `GET /api/audit-logs/`
-Returns the complete, read-only chronological `AuditLog` — every analyst approval, flag, edit, and ingestion event since system initialisation.
+Returns the complete, read-only chronological audit trail.
 ```json
 [
   {
@@ -965,7 +928,7 @@ Returns the complete, read-only chronological `AuditLog` — every analyst appro
     "actor": { "id": 1, "username": "analyst_jane" },
     "action": "approve",
     "note": "Verified against supplier invoice #12948-B.",
-    "before_value": { "is_approved": false, "is_flagged": true, "normalized_kgco2e": "248.520000" },
+    "before_value": { "is_approved": false, "is_flagged": true,  "normalized_kgco2e": "248.520000" },
     "after_value":  { "is_approved": true,  "is_flagged": false, "normalized_kgco2e": "248.520000" },
     "created_at": "2024-03-15T10:45:32Z"
   }
@@ -973,16 +936,14 @@ Returns the complete, read-only chronological `AuditLog` — every analyst appro
 ```
 ---
 ## 🧪 Testing
-The backend ships with a comprehensive unit test suite covering parser accuracy, Haversine computation, DEFRA factor matching, API endpoint contracts, and audit log immutability enforcement.
 ```bash
 # Run the full backend test suite
 python manage.py test
-# Run a specific test module
+# Run a specific module
 python manage.py test core.tests.test_parsers
 python manage.py test core.tests.test_haversine
 python manage.py test core.tests.test_api
 ```
-**Test Coverage Areas:**
 |
  Module 
 |
@@ -1016,11 +977,10 @@ python manage.py test core.tests.test_api
 |
 `test_audit_log.py`
 |
- Append-only enforcement (update raises 
+ Append-only enforcement — update raises 
 `ValidationError`
 , delete raises 
 `ValidationError`
-) 
 |
 ---
 ## 📁 Repository Structure
@@ -1031,7 +991,7 @@ breathe-esg-analyst-portal/
 │   ├── models.py                    # IngestionJob, EmissionRow, EmissionFactor, AuditLog
 │   ├── serializers.py               # DRF serializers
 │   ├── views.py                     # Ingest, Dashboard, Approve/Flag endpoints
-│   ├── urls.py                      # URL routing
+│   ├── urls.py
 │   │
 │   ├── 📂 parsers/
 │   │   ├── sap_mm_parser.py         # ALV grid parser, Movement Type sign correction
@@ -1051,7 +1011,7 @@ breathe-esg-analyst-portal/
 ├── 📂 frontend/                     # React + Vite analyst dashboard
 │   ├── 📂 src/
 │   │   ├── 📂 components/           # Dashboard, ReviewQueue, AuditLog, RunHistory
-│   │   ├── 📂 hooks/                # useDashboard, useRows, useAuditLog
+│   │   ├── 📂 hooks/
 │   │   └── App.jsx
 │   ├── package.json
 │   └── vite.config.js
@@ -1100,13 +1060,11 @@ React Frontend
  Vercel 
 |
 *
-(see repository for Vercel URL)
+(see Vercel dashboard for URL)
 *
 |
-Both services are live, connected, and fully operational. The Render deployment uses a managed **PostgreSQL 15** instance. DEFRA 2024 factors are seeded via a `post_deploy` command in `render.yaml`.
 ---
 ## ✅ Internship Submission Checklist
-For Breathe ESG evaluators reviewing this submission:
 |
  Requirement 
 |
@@ -1240,12 +1198,12 @@ https://breathe-esg-api-8dcv.onrender.com
  — no IEEE 754 rounding 
 |
 ---
-<div align="center">
-<br/>
-**Built with precision for the Breathe ESG Engineering Internship · 2024**
-*Breathe ESG — Making every tonne of carbon accountable.*
-<br/>
-[![Made with Django](https://img.shields.io/badge/Made%20with-Django-092e20?style=flat-square&logo=django)](https://djangoproject.com)
-[![Made with React](https://img.shields.io/badge/Made%20with-React-61dafb?style=flat-square&logo=react&logoColor=black)](https://react.dev)
-[![DEFRA 2024](https://img.shields.io/badge/Factors-DEFRA%202024-10b981?style=flat-square)](https://www.gov.uk/government/publications/greenhouse-gas-reporting-conversion-factors-2024)
-</div>
+<p align="center">
+  <strong>Built with precision for the Breathe ESG Engineering Internship · 2024</strong><br/>
+  <em>Breathe ESG — Making every tonne of carbon accountable.</em>
+</p>
+<p align="center">
+  <img src="https://img.shields.io/badge/Made%20with-Django-092e20?style=flat-square&logo=django" alt="Django"/>
+  <img src="https://img.shields.io/badge/Made%20with-React-61dafb?style=flat-square&logo=react&logoColor=black" alt="React"/>
+  <img src="https://img.shields.io/badge/Factors-DEFRA%202024-10b981?style=flat-square" alt="DEFRA 2024"/>
+</p>
