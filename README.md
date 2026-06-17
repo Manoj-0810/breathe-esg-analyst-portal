@@ -770,7 +770,7 @@ breathe-esg-analyst-portal/
 ---
 
 <p align="center">
-  <strong>Built with precision &middot; 2024</strong><br/>
+  <strong>Built with precision &middot; </strong><br/>
   <em>Making every tonne of carbon accountable.</em>
 </p>
 
